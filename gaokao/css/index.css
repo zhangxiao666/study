@@ -1,0 +1,75 @@
+/* CSS Document */
+
+*{margin:0; padding:0; list-style:none; color:#999999; font-size:14px; font-family:Microsoft YaHei;}
+
+/* nav */
+#nav{background:#999999; height:55px;}
+#nav ul{width:1000px; margin:0 auto;}
+#nav li{float:left; line-height:55px;}
+#nav  li:nth-child(1){background:#00CCFF; display:block;}
+#nav  a{color:#FFFFFF; font-size:18px; text-decoration:none; padding:0 59px;}
+#nav  a:hover{background:#2db2ea; display:block; color:#0000FF}
+
+/* main */
+#main{width:1000px; margin:0 auto;}
+/* main_left */
+#main_left{width:670px; float:left; margin-top:20px;}
+.clear{clear:both}
+.news{margin-top:20px;}
+.news .touxiang{width:86px; text-align:center; line-height:20px; float:left;}
+.neirong{width:560px; float:right;}
+.neirong h2{color:#555; font-size:18px; line-height:36px;}
+.neirong p{color:#555; font-size:14px; border-bottom:1px #CCCCCC solid; padding-bottom:16px; line-height:24px; margin-bottom:12px;}
+.neirong span{margin:2px 6px;}
+.neirong span a{padding:2px 8px; text-decoration:none; background:#eeeeee;}
+.neirong span a:hover{background:#0099FF; color:#FFFFFF; text-decoration:none;}
+.tupian{float:right;}
+.tupian img{margin:0 2px;}
+.more{background:#f6f6f6; padding:10px; 40px; text-align:center; color:#999; font-size:14px; margin:50px 0; border-radius:20px}
+
+
+/* main_right */
+#main_right{width:310px; float:right;}
+#main_right .search{width:310px; height:45px; border:1px #CCCCCC solid; margin-top:20px;}
+#main_right .text{width:236px; height:45px;}
+#main_right .submit{float:right; background:#2db2ea; width:74px; height:45px; color:#FFFFFF; font-size:16px; border:none}/* 怎么加一个搜索图标？ */
+
+.zhuanlan{margin-top:20px; width:310px;}
+.zhuanlan h3{background:url(../images/tupian_09.jpg) no-repeat; color:#2db2ea; font-size:32px; text-indent:60px; height:51px;}
+.zhuanlan span{font-family:Simsun; font-size:12px; color:#888; float:right; margin-top:26px;}
+.zhuanlan ul{width:400px; overflow:hidden; margin-top:20px;}
+.zhuanlan li{float:left; width:80px; margin-right:35px; text-align:center; line-height:24px;}
+
+.rewen{width:310px; margin-top:20px;}
+.rewen h3{background:url(../images/tupian_31.jpg) no-repeat; color:#2db2ea; font-size:32px; text-indent:60px; height:51px;}
+.rewen ul{margin-top:20px; background:url(../images/tp_17.jpg) no-repeat 0 110px;}
+.rewen .dy{background:#f6f6f6; width:256px; height:100px; margin-left:14px; position:relative; padding:0 10px 0 30px;}
+.dy img{position:absolute; top:38px; left:-14px}
+.rewen li{line-height:39px; text-indent:42px; color:#555;}
+.rewen li h4{line-height:30px; color:#555; font-size:14px; font-weight:normal; width:272px; text-indent:0;}
+.rewen li p{line-height:20px; color:#999; font-size:12px; text-indent:0;}
+.rewen li span{color:#ff7200; font-size:14px; float:right; margin:0 6px 10px 0}
+
+
+.biaoqian{margin-top:20px;}
+.biaoqian h3{background:url(../images/tupian_31.jpg) no-repeat; color:#2db2ea; font-size:32px; text-indent:60px; height:51px;}
+.biaoqian span{margin:6px 10px; display:block; float:left;}
+.biaoqian a{text-decoration:none; padding:2px 14px; background:#eee;}
+.biaoqian a:hover{background:#2db2ea; color:#FFFFFF;}
+.ask{margin-top:10px;}
+
+
+
+#footer{height:131px; background:#333333;}
+#footer{text-align:center; padding-top:50px;}
+
+
+
+
+
+
+
+
+
+
+
